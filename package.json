@@ -1,0 +1,25 @@
+{
+  "name": "api-papillio-adm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mxllxc/api-papillio-adm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mxllxc/api-papillio-adm/issues"
+  },
+  "homepage": "https://github.com/mxllxc/api-papillio-adm#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "pg": "^8.8.0"
+  }
+}
