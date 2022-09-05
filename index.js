@@ -1,6 +1,6 @@
 const express = require('express');
 const server = express();
-const Client = require('pg').Client;
+const Client = require('pg').Pool;
 const client = new Client({
     user: "postgres",
     password: "1234",
